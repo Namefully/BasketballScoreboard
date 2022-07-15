@@ -26,3 +26,9 @@ function add3b(){
  count2 += 3
  guestEl.textContent = count2
 }
+function reset(){
+    count = 0
+    count2 = 0
+    homeEl.textContent = 0
+    guestEl.textContent = 0
+}
